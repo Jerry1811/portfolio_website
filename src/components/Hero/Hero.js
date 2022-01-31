@@ -1,22 +1,24 @@
-import React from 'react';
+import React from 'react'
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import {
+  Section,
+  SectionText,
+  SectionTitle,
+} from '../../styles/GlobalComponents'
+import Button from '../../styles/GlobalComponents/Button'
+import { LeftSection } from './HeroStyles'
 
 const Hero = () => (
   <Section row noppadding>
     <LeftSection>
       <SectionTitle main center>
         Welcome to <br />
-        My Personal Portfolio
+        My Portfolio Website
       </SectionTitle>
-      <SectionText>
-        FullStack Software Developer
-      </SectionText>
-      <Button onClick={()=> window.location = 'https://google.com'}>Learn More</Button>
+      <SectionText>FullStack Software Developer</SectionText>
+      <Button onClick={() => (window.location = '#')}>Learn More</Button>
     </LeftSection>
   </Section>
-);
+)
 
-export default Hero;
+export default Hero
