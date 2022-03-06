@@ -1,11 +1,22 @@
-import React from 'react';
-import { DiReact, DiZend, DiNodejs } from 'react-icons/di';
-import { Si1Password } from "react-icons/si";
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import React from 'react'
+import { DiReact, DiZend, DiNodejs } from 'react-icons/di'
+import { Si1Password } from 'react-icons/si'
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle,
+} from '../../styles/GlobalComponents'
+import {
+  List,
+  ListContainer,
+  ListItem,
+  ListParagraph,
+  ListTitle,
+} from './TechnologiesStyles'
 
-const Technologies = () =>  (
-  <Section id='tech'>
+const Technologies = () => (
+  <Section id="tech">
     <SectionDivider />
     <br />
     <SectionTitle>Technologies</SectionTitle>
@@ -15,40 +26,40 @@ const Technologies = () =>  (
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size='5rem' />
+        <DiReact size="5rem" />
         <ListContainer>
           <ListTitle>Front-end</ListTitle>
           <ListParagraph>
             Experience with
             <br />
-            React.js
+            React.js, JavaScript
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiNodejs size='5rem' />
+        <DiNodejs size="5rem" />
         <ListContainer>
           <ListTitle>Back-end</ListTitle>
           <ListParagraph>
             Experience with
             <br />
-            Node.js
+            Node.js, JavaScript
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <Si1Password size='5rem' />
+        <Si1Password size="5rem" />
         <ListContainer>
           <ListTitle>Testing</ListTitle>
           <ListParagraph>
             Experience with
             <br />
-            Tools like Selenium and Cypress
+            Selenium, Cypress, Playwright, Jest, JMeter
           </ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
   </Section>
-);
+)
 
-export default Technologies;
+export default Technologies

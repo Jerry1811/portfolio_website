@@ -46,5 +46,5 @@ export const TimeLineData = [
   { year: 2019, text: 'Started training on Software Quality Assurance' },
   { year: 2020, text: 'Started a full-time role as a QA Engineer' },
   { year: 2021, text: 'Started learning web development' },
-  { year: 2022, text: 'Moved from QA to Backend and Frontend development' },
+  { year: 2022, text: 'Moved from QA to Frontend development' },
 ]
